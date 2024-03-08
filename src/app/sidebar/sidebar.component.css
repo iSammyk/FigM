@@ -1,0 +1,163 @@
+.heado{
+    width: 100%;
+    background-color: rgb(44,44,44);
+    overflow: hidden;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+}
+.maw input{
+width: 90%;
+border:solid 2px gray;
+padding: 5px;
+border-radius: 5px;
+background-color: rgba(220, 220, 220, 0.16);
+margin-top: 5px;
+}
+.maw{
+    display: flex;
+    justify-content: center;
+}
+.wad p:hover{
+ background-color: rgba(220, 220, 220, 0.128);
+}
+
+.wad {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.dok{
+ background-color: rgba(220, 220, 220, 0.128);
+ width: 90%;
+ display: flex;
+ padding: 28px;
+ justify-content: center;
+ flex-direction: column;
+}
+.dok p{
+    font-size: 13px;
+    margin: auto;
+}
+.dok button{
+    background-color: rgb(12,140,233);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.beg{
+    height: 15px;
+}
+.bol{
+    background-color: rgb(74,88,120);
+    display: flex;
+    align-items: center;
+}
+.texto{
+    font-size: 9px;
+    padding: 3px;
+    height: 20px;
+    color: rgb(151, 171, 187);
+    background-color: rgb(57,67,96);
+}
+
+.nkl p{
+    font-size: 13px;
+}
+.nkl{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nkl:hover{
+    background-color: rgba(220, 220, 220, 0.128);
+}
+.fej{
+    height: 73vh;
+    overflow-y: scroll;
+}
+.fej::-webkit-scrollbar{
+    display: none;
+}
+
+.nk2 p{
+    font-size: 13px;
+}
+.nk2 span{
+    font-size:17px;
+}
+.nk2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-top: 1px solid whitesmoke;
+}
+.nk2:hover{
+    background-color: rgba(220, 220, 220, 0.128);
+}
+.mto{
+    margin-top: 2px;
+}
+.usez:hover{
+    background-color: rgba(220, 220, 220, 0.128);
+}
+.parent:focus-within .child{
+    display: block;
+}
+
+.parent{
+    position: relative;
+}
+.child{
+    position: absolute;
+    background-color: rgb(20, 19, 19);
+    top: 50px;
+    left: 4px;
+    right: 4px;
+    display: none;
+    padding-bottom: 5px;
+}
+.flexa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexa img{
+    width: 20%;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.ch1:hover{
+    background-color: rgb(12,140,233);
+}
+.ch1 p{
+  font-weight: 200;
+  font-size: 15px;
+}
+.ch1 span{
+    font-weight: 200;
+    font-size: 20px;
+  }
+
+.toy{
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.met{
+    font-size: 20px;
+}
+.ole p{
+    font-size: 12px;
+}
+.bulk:hover{
+    background-color: rgb(12,140,233);
+}

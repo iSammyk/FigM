@@ -1,0 +1,11 @@
+.side{
+    width: 23%;
+    border-right: 1px solid whitesmoke;
+}
+.mainy{
+    width: 77%;
+}
+
+.whole{
+    background-color: rgb(44,44,44);
+}
