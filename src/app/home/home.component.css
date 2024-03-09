@@ -1,0 +1,19 @@
+.hom {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+}
+.hom img{
+    width: 100%;
+    border-radius: 10px;
+}
+.homw{
+    width: 32%;
+}
+.mat{
+    height: 77vh;
+    overflow-y: scroll;
+}
+.mat::-webkit-scrollbar{
+    display: none;
+}

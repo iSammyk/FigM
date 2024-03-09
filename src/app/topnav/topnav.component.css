@@ -5,3 +5,43 @@
         border-bottom: 1px solid rgba(255, 255, 255, 0.361);
     
 }
+.bod{
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.rad{
+    /* background-color: rebeccapurple; */
+    color: white;
+    font-size: 14px;
+    display: flex;
+    width: 30%; 
+    justify-content: space-around;
+    align-items: center;
+}
+.rad button{
+    background-color: rgba(220, 220, 220, 0.183);
+    padding: 5px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+.rad1{
+    /* background-color: rebeccapurple; */
+    color: white;
+    font-size: 14px;
+    display: flex;
+    width: 40%; 
+    justify-content: space-around;
+    align-items: center;
+}
+.rad1 button{
+    background-color: rgba(220, 220, 220, 0.16);
+    padding: 2px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+.met{
+    font-size: 20px;
+}
